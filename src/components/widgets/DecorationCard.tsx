@@ -1,7 +1,7 @@
 import Card from '../ui/Card';
 import SimpleScene from '../3d/SimpleScene';
 
-const SecondaryCard = () => {
+const DecorationCard = () => {
     return (
     <Card>
         <div className="h-full w-full">
@@ -11,4 +11,4 @@ const SecondaryCard = () => {
     );
 };
 
-export default SecondaryCard;
+export default DecorationCard;
