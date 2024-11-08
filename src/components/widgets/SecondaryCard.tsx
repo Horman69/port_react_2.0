@@ -1,14 +1,18 @@
+'use client';
+
 import Card from '../ui/Card';
-//import SimpleScene from '../3d/SimpleScene';
+import dynamic from 'next/dynamic';
+
+const Scene = dynamic(() => import('../3d/Scene'), { ssr: false });
 
 const SecondaryCard = () => {
-    return (
+  return (
     <Card>
-        <div className="h-full w-full">
-        {/* <SimpleScene /> */}
-        </div>
+      <div className="h-full w-full">
+        <Scene />
+      </div>
     </Card>
-    );
+  );
 };
 
 export default SecondaryCard;
