@@ -1,16 +1,22 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  darkMode: 'class', // Включаем поддержку темной темы
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
         'primary': '#1A1A1A',
+        'primary-light': '#FFFFFF',
         'secondary': '#242424',
+        'secondary-light': '#F0F0F0',
         'accent': '#3A3A3A',
+        'accent-light': '#E8E8E8',
+        'text-dark': '#2C3E50',
+        'text-light': '#F8F9FA',
       },
       gridTemplateColumns: {
         'widgets': 'repeat(auto-fit, minmax(300px, 1fr))',
@@ -23,6 +29,10 @@ export default {
           '0%': { opacity: '0', transform: 'translateY(10px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
+      },
+      boxShadow: {
+        'card': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+        'card-hover': '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
       },
     },
   },

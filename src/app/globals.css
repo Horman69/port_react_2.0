@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Базовые настройки */
+:root {
+  --background-light: #FFFFFF;
+  --background-dark: #1A1A1A;
+}
+
+/* Основные стили */
+html {
+  transition: background-color 0.3s ease;
+}
+
+html.light {
+  background-color: var(--background-light);
+  color-scheme: light;
+}
+
+html.dark {
+  background-color: var(--background-dark);
+  color-scheme: dark;
+}
+
+/* Анимации */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+/* Стили скроллбара */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3A3A3A;
+  border-radius: 4px;
+}
+
+.light ::-webkit-scrollbar-thumb {
+  background-color: #CCCCCC;
+}
