@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // File: C:\Users\79999\Desktop\Портфолио_REACT\Портфолио_REACT_NEXT_TREE_GSAP_01_03\react-portfolio\src\app\page.tsx
+=======
+// File: C:\Users\79999\Desktop\Мои файлы\Портфолио_REACT\react-portfolio\src\app\page.tsx
+>>>>>>> e974d3b64ba73c793d62d9c84c999b5627b64118
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

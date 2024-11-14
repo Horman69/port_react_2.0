@@ -557,9 +557,12 @@ video {
 .grid {
   display: grid;
 }
+<<<<<<< HEAD
 .h-2 {
   height: 0.5rem;
 }
+=======
+>>>>>>> e974d3b64ba73c793d62d9c84c999b5627b64118
 .h-28 {
   height: 7rem;
 }
@@ -647,9 +650,12 @@ video {
 .justify-center {
   justify-content: center;
 }
+<<<<<<< HEAD
 .justify-between {
   justify-content: space-between;
 }
+=======
+>>>>>>> e974d3b64ba73c793d62d9c84c999b5627b64118
 .gap-3 {
   gap: 0.75rem;
 }
@@ -659,6 +665,7 @@ video {
 .gap-6 {
   gap: 1.5rem;
 }
+<<<<<<< HEAD
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -669,6 +676,8 @@ video {
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
 }
+=======
+>>>>>>> e974d3b64ba73c793d62d9c84c999b5627b64118
 .overflow-hidden {
   overflow: hidden;
 }
@@ -713,9 +722,12 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+<<<<<<< HEAD
 .bg-secondary\/30 {
   background-color: rgb(36 36 36 / 0.3);
 }
+=======
+>>>>>>> e974d3b64ba73c793d62d9c84c999b5627b64118
 .bg-secondary\/80 {
   background-color: rgb(36 36 36 / 0.8);
 }
@@ -795,6 +807,7 @@ video {
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
+<<<<<<< HEAD
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -802,6 +815,8 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+=======
+>>>>>>> e974d3b64ba73c793d62d9c84c999b5627b64118
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

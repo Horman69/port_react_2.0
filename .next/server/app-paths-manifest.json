@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
+=======
+  "/not-found": "app/not-found.js",
+>>>>>>> e974d3b64ba73c793d62d9c84c999b5627b64118
   "/page": "app/page.js"
 }
